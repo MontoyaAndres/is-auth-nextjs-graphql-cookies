@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "env": {
+    "API": "https://server.andresmontoyain.now.sh"
+  },
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
+}

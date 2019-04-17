@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "env": {
+    "FRONTEND_HOST": "https://client.andresmontoyain.now.sh"
+  },
+  "builds": [{ "src": "src/index.ts", "use": "@now/node" }],
+  "routes": [{ "src": "/.*", "dest": "/src/index.ts" }]
+}

@@ -30,7 +30,7 @@ export async function startServer() {
       credentials: true,
       origin: [process.env.FRONTEND_HOST || "http://localhost:3000"]
     },
-    port: 4000
+    port: process.env.PORT || 4000
   });
 
   return app;
